@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+<title>Eve's Website 3D</title>
+<link rel="shortcut icon" href="favicon.png" />
+<a-scene>
+    <a-sky src="bg.png"></a-sky>
+    <a-image src="title.gif" position="0 2 -10" scale="10 2 2"
+    animation="property: position; to: 0 3 -10; dur: 2000; easing: easeInOutQuad; dir: alternate; loop: true"></a-image>
+    <a-plane src="mikuam.png" position="-15 2.5 0" height="5" width="10" rotation="0 90 0"
+        material="side: double"></a-plane>
+    <a-plane src="dhilly.png" position="15 2.5 0" height="5" width="10" rotation="0 -90 0"
+        material="side: double"></a-plane>
+    <a-plane src="website.png" position="0 2.5 15" height="5" width="10" rotation="0 180 0"
+        material="side: double"></a-plane>
+</a-scene>
